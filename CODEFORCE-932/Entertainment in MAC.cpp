@@ -6,6 +6,7 @@ using namespace std;
       string temp=s;
       reverse(temp.begin(),temp.end());
       cout<<min(s,temp+s)<<endl;
+
  }
 int main(){
     int test;
